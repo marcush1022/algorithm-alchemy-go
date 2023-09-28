@@ -17,6 +17,7 @@ If you have figured out the O(n) solution, try coding another solution using the
 */
 
 /**
+Kadane's algorithm:
 local_maximum at index i is the maximum of A[i] and the sum of A[i] and local_maximum at index i-1.
 local_maximum[i] = max(A[i], A[i] + local_maximum[i - 1])
 */
