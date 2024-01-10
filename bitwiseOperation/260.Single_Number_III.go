@@ -80,32 +80,32 @@ func singleNumber3(nums []int) []int {
 		bitmask ^= v
 	}
 	// bitmask = 00000110
-	fmt.Printf(">>>>> bitmask %08b\n", bitmask)
+	//fmt.Printf(">>>>> bitmask %08b\n", bitmask)
 	// The negation of bitmask is calculated using the two's complement representation, which involves flipping all the bits of bitmask and adding 1 to the result.
 	// The result of this bitwise AND operation isolates the rightmost set bit of bitmask.
 	// This technique is commonly used to identify the rightmost set bit in a binary number, which is then used in further bitwise operations to manipulate and extract specific bits from the original number.
 	diff := bitmask & (-bitmask)
 	// -bitmask = -0000110 = 11111001 + 1 = 11111010
 	// diff = 00000110 & 11111010 = 00000010
-	fmt.Printf(">>>>> -bitmask %08b, %d\n", -bitmask, -bitmask)
-	fmt.Printf(">>>>> bitmask & (-bitmask) %08b, %d\n", diff, diff)
-	fmt.Println()
+	//fmt.Printf(">>>>> -bitmask %08b, %d\n", -bitmask, -bitmask)
+	//fmt.Printf(">>>>> bitmask & (-bitmask) %08b, %d\n", diff, diff)
+	//fmt.Println()
 
 	x := 0
 	for _, v := range nums {
-		fmt.Printf(">>>>> v %08b, %d\n", v, v)
+		//fmt.Printf(">>>>> v %08b, %d\n", v, v)
 		// Find the number that has the same rightmost set bit with 'diff'
 		if (v & diff) != 0 {
-			fmt.Printf(">>>>> v & diff %08b\n", v&diff)
+			//fmt.Printf(">>>>> v & diff %08b\n", v&diff)
 			x ^= v
-			fmt.Printf(">>>>> x ^= v %08b\n", x)
+			//fmt.Printf(">>>>> x ^= v %08b\n", x)
 		}
 	}
 
 	fmt.Println()
 	// The result is 3
-	fmt.Printf(">>>>> final x %08b, %d\n", x, x)
+	//fmt.Printf(">>>>> final x %08b, %d\n", x, x)
 	// 3^5 = 6, 6^5 = 3, 6^3 = 5
-	fmt.Printf(">>>>> bitmask ^ x %08b, %d\n", bitmask^x, bitmask^x)
+	//fmt.Printf(">>>>> bitmask ^ x %08b, %d\n", bitmask^x, bitmask^x)
 	return []int{x, bitmask ^ x}
 }
