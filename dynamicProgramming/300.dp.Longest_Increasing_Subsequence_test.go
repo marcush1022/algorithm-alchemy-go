@@ -2,7 +2,7 @@
 // dir_path dynamic_programming
 // name 300.dp.Longest_Increasing_Subsequence_test
 
-package dynamic_programming
+package dynamicProgramming
 
 import (
 	"github.com/stretchr/testify/assert"

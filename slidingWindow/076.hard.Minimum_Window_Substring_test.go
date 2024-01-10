@@ -2,7 +2,7 @@
 // dir_path sliding_window
 // name 076.hard.Minimum_Window_Substring_test
 
-package sliding_window
+package slidingWindow
 
 import (
 	"github.com/stretchr/testify/assert"

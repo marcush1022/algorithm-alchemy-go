@@ -2,7 +2,7 @@
 // dir_path dynamic_programming
 // name 152.dp.Maximum_Product_Subarray_test
 
-package dynamic_programming
+package dynamicProgramming
 
 import (
 	"fmt"

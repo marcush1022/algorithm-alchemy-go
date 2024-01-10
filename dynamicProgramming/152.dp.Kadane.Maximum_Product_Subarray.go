@@ -2,7 +2,7 @@
 // dir_path dynamic_programming
 // name 152.dp.Maximum_Product_Subarray
 
-package dynamic_programming
+package dynamicProgramming
 
 /**
 Find the contiguous subarray within an array (containing at least one number) which has the largest product.

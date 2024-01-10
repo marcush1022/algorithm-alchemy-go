@@ -2,7 +2,7 @@
 // dir_path sliding_window
 // name 209.medium.Minimum_Size_Subarray_Sum
 
-package sliding_window
+package slidingWindow
 
 /**
 Given an array of positive integers nums and a positive integer target, return the minimal length of a subarray

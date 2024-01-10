@@ -2,7 +2,7 @@
 // dir_path dynamic_programming
 // name 064.dp.Minimum_Path_Sum_test
 
-package dynamic_programming
+package dynamicProgramming
 
 import (
 	"github.com/stretchr/testify/assert"

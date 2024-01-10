@@ -2,7 +2,7 @@
 // dir_path dynamtic_programming
 // name 053.dp.Maximum_Subarray
 
-package dynamic_programming
+package dynamicProgramming
 
 /**
 Find the contiguous subarray within an array (containing at least one number) which has the largest sum.

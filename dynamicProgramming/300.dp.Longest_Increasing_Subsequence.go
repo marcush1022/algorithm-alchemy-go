@@ -2,7 +2,7 @@
 // dir_path dynamic_programming
 // name 300.dp.Longest_Increasing_Subsequence
 
-package dynamic_programming
+package dynamicProgramming
 
 /**
 Given an unsorted array of integers, find the length of longest increasing subsequence.

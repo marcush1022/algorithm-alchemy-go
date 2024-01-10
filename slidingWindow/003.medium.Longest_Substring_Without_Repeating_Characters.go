@@ -2,7 +2,7 @@
 // dir_path twoPointers
 // name 003.Longest_Substring_Without_Repeating_Characters
 
-package sliding_window
+package slidingWindow
 
 /**
 Given a string, find the length of the longest substring without repeating characters.

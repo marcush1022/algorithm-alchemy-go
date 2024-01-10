@@ -2,7 +2,7 @@
 // dir_path sliding_window
 // name 076.hard.Minimum_Window_Substring
 
-package sliding_window
+package slidingWindow
 
 import (
 	"math"

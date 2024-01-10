@@ -2,7 +2,7 @@
 // dir_path sliding_window
 // name 003.medium.Longest_Substring_Without_Repeating_Characters_test
 
-package sliding_window
+package slidingWindow
 
 import (
 	"github.com/stretchr/testify/assert"
