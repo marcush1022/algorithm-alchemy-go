@@ -1,1 +1,1 @@
-# algorithm-alchemy-go
+# leetcode-go
