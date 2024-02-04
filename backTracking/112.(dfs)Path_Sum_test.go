@@ -1,7 +1,7 @@
 // package golang
 // name 112.(dfs)Path_Sum_test
 
-package uncategorized
+package backTracking
 
 import (
 	"github.com/stretchr/testify/assert"

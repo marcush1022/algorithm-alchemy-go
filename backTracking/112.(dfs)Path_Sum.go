@@ -1,7 +1,7 @@
 // package golang
 // name 112.(dfs)Path_Sum
 
-package uncategorized
+package backTracking
 
 /*
 Given a binary tree and a sum, determine if the tree has a root-to-leaf path such that adding
@@ -18,12 +18,6 @@ Given the below binary tree and sum = 22,
         7    2      1
 return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
 */
-
-type TreeNode struct {
-	Left  *TreeNode
-	Right *TreeNode
-	Val   int
-}
 
 func dfsPathSum(root *TreeNode, target int) bool {
 	if root == nil {
