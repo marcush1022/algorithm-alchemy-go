@@ -28,5 +28,5 @@ Output: 0
 */
 
 func minSubArrayLen(target int, nums []int) int {
-
+	panic("todo")
 }
